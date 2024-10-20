@@ -1,0 +1,14 @@
+create bucket
+aws s3 mb s3://your-bucket-name --region your-region
+
+upload file
+aws s3 cp /path/to/yourfile s3://your-bucket-name
+
+list all files
+aws s3 ls s3://your-bucket-name
+
+download file from s3 bucket
+aws s3 cp s3://your-bucket-name/yourfile /local/destination
+
+To Delete a file 
+aws s3 rm s3://your-bucket-name/yourfile
